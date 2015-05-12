@@ -63,7 +63,7 @@ public class LoginServlet extends HttpServlet {
 
 				resp.addCookie(cookie);
 
-				resp.getWriter().println("<a href='index.html'>go to main</a>");
+				
 			}
 
 			resp.getWriter().println("</body>");
